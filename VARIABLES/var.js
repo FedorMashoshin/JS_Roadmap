@@ -6,6 +6,12 @@ function testVar() {
 
 testVar();
 
+if (5 > 2) {
+  var i = 10;
+}
+
+console.log(i);
+
 // Global scope
 var y = 10;
 var y = 20; // Re-declaration is allowed
